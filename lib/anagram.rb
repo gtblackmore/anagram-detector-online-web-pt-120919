@@ -6,7 +6,9 @@ class Anagram
   end
   
   def match(string)
-    @anagram.split
+    a = @anagram.split("")
+    
+    
     
   
   
