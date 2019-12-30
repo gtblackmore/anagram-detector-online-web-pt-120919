@@ -9,10 +9,4 @@ class Anagram
     a = @anagram.split("")
     string.select{|word| word.split("").sort == a.sort}
   end
-    
-    
-  
-  
-  
-  
 end  
